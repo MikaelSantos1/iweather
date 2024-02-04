@@ -19,6 +19,7 @@ export function Input({ isLoading = false, ...rest }: Props) {
       {
         isLoading && (
           <ActivityIndicator
+            testID='activityIndicator'
             color={theme.colors.blue_light}
           />
         )
