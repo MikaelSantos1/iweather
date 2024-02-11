@@ -1,4 +1,4 @@
-import { mockWeatherAPIResponse } from "@__tests__/mocks/mocksWeatherApiReponse"
+import { mockWeatherAPIResponse } from "@__tests__/mocks/api/mocksWeatherApiReponse"
 import { api } from "./api"
 import { getWeatherByCityService } from "./getWeatherByCityService"
 
